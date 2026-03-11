@@ -1,0 +1,327 @@
+datasource db {
+  provider = "postgresql"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+//
+// ─────────────────────────────────────────────
+// USERS & AUTH
+// ─────────────────────────────────────────────
+//
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  families      FamilyMember[]
+  ownedFamilies Family[]       @relation("FamilyOwner")
+  roles         UserRole[]
+  lists         ShoppingList[] @relation("UserLists")
+}
+
+model Role {
+  id    String     @id @default(uuid())
+  name  String     @unique
+  users UserRole[]
+}
+
+model UserRole {
+  id     String @id @default(uuid())
+  userId String
+  roleId String
+
+  user   User @relation(fields: [userId], references: [id])
+  role   Role @relation(fields: [roleId], references: [id])
+
+  @@unique([userId, roleId])
+}
+
+//
+// ─────────────────────────────────────────────
+// FAMILIES
+// ─────────────────────────────────────────────
+//
+
+model Family {
+  id      String @id @default(uuid())
+  name    String
+  ownerId String
+
+  owner   User           @relation("FamilyOwner", fields: [ownerId], references: [id])
+  members FamilyMember[]
+  lists   ShoppingList[]
+}
+
+model FamilyMember {
+  id       String @id @default(uuid())
+  familyId String
+  userId   String
+  role     String
+
+  family Family @relation(fields: [familyId], references: [id])
+  user   User   @relation(fields: [userId], references: [id])
+}
+
+//
+// ─────────────────────────────────────────────
+// SHOPPING LISTS
+// ─────────────────────────────────────────────
+//
+
+model ShoppingList {
+  id          String   @id @default(uuid())
+  familyId    String
+  name        String
+  createdById String
+  createdAt   DateTime @default(now())
+
+  family    Family     @relation(fields: [familyId], references: [id])
+  createdBy User       @relation("UserLists", fields: [createdById], references: [id])
+  items     ListItem[]
+}
+
+model ListItem {
+  id                  String   @id @default(uuid())
+  listId              String
+  normalizedProductId String
+  quantity            Int      @default(1)
+  checked             Boolean  @default(false)
+  createdAt           DateTime @default(now())
+
+  list              ShoppingList      @relation(fields: [listId], references: [id])
+  normalizedProduct NormalizedProduct @relation(fields: [normalizedProductId], references: [id])
+
+  @@index([listId])
+  @@index([normalizedProductId])
+}
+
+//
+// ─────────────────────────────────────────────
+// RETAILERS & IMPORT LOG
+// ─────────────────────────────────────────────
+//
+
+model Retailer {
+  id      String  @id @default(uuid())
+  name    String
+  chainId String?
+  url     String?
+  active  Boolean @default(true)
+
+  stores  Store[]
+  imports ImportLog[]
+}
+
+model ImportLog {
+  id           String    @id @default(uuid())
+  retailerId   String?
+  companyId    String?
+  fileName     String
+  fileType     String
+  success      Boolean
+  message      String?
+  recordsCount Int?
+  startedAt    DateTime  @default(now())
+  finishedAt   DateTime?
+
+  retailer Retailer? @relation(fields: [retailerId], references: [id])
+
+  @@index([companyId])
+}
+
+//
+// ─────────────────────────────────────────────
+// EXISTING MODELS (UNCHANGED)
+// ─────────────────────────────────────────────
+//
+
+model Chain {
+  id        String   @id
+  name      String
+  stores    Store[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Store {
+  id      String  @id
+  name    String
+  chainId String
+  chain   Chain   @relation(fields: [chainId], references: [id])
+  city    String?
+  address String?
+
+  retailerId String?
+  retailer   Retailer? @relation(fields: [retailerId], references: [id])
+
+  prices     Price[]
+  promotions Promotion[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([chainId])
+}
+
+model Product {
+  id            String  @id
+  barcode       String?
+  name          String
+  manufacturer  String?
+  unitQty       String?
+  unitOfMeasure String?
+  category      String?
+
+  normalizedProductId String?
+  normalizedProduct   NormalizedProduct? @relation(fields: [normalizedProductId], references: [id])
+
+  prices     Price[]
+  promotions Promotion[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([barcode])
+}
+
+model Price {
+  id             String         @id @default(uuid())
+  productId      String
+  storeId        String
+  price          Float
+  validFrom      DateTime       @default(now())
+  validTo        DateTime?
+  store          Store          @relation(fields: [storeId], references: [id])
+  product        Product        @relation(fields: [productId], references: [id])
+  priceHistories PriceHistory[]
+
+  @@unique([productId, storeId])
+  @@index([productId])
+  @@index([storeId])
+}
+
+model PriceHistory {
+  id        String    @id @default(uuid())
+  priceId   String
+  productId String
+  storeId   String
+  price     Float
+  validFrom DateTime  @default(now())
+  validTo   DateTime?
+
+  priceRef Price @relation(fields: [priceId], references: [id])
+
+  @@index([productId])
+  @@index([storeId])
+}
+
+model Promotion {
+  id          String    @id
+  productId   String
+  storeId     String
+  title       String
+  description String?
+  price       Float?
+  minQty      Int?
+  validFrom   DateTime
+  validTo     DateTime?
+
+  product Product @relation(fields: [productId], references: [id])
+  store   Store   @relation(fields: [storeId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([productId])
+  @@index([storeId])
+}
+
+enum StoreType {
+  PHYSICAL
+  ONLINE
+}
+
+model PriceReport {
+  id               Int               @id @default(autoincrement())
+  productId        Int
+  storeId          Int
+  userId           Int
+  reportedPrice    Decimal           @db.Decimal(10, 2)
+  imageUrl         String?
+  ocrText          String?
+  isWeighted       Boolean           @default(false)
+  freshnessScore   Int?
+  cleanlinessScore Int?
+  verified         Boolean           @default(false)
+  status           PriceReportStatus @default(PENDING)
+  createdAt        DateTime          @default(now())
+}
+
+model StoreReview {
+  id               Int      @id @default(autoincrement())
+  storeId          Int
+  userId           Int
+  freshnessScore   Int?
+  cleanlinessScore Int?
+  serviceScore     Int?
+  comment          String?
+  createdAt        DateTime @default(now())
+}
+
+enum PriceReportStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+model AggregatedPrice {
+  id              String   @id @default(uuid())
+  productId       String
+  cheapestPrice   Float
+  cheapestStoreId String
+  cheapestChainId String?
+  updatedAt       DateTime @updatedAt
+
+  @@unique([productId])
+  @@index([cheapestStoreId])
+}
+
+model StorePriceSnapshot {
+  id        String   @id @default(uuid())
+  productId String
+  storeId   String
+  price     Float
+  updatedAt DateTime @updatedAt
+
+  @@unique([productId, storeId])
+  @@index([storeId])
+  @@index([productId])
+  @@index([storeId, productId])
+}
+
+model NormalizedProduct {
+  id           String   @id @default(cuid())
+  name         String   @unique
+  brand        String?
+  size         Float?
+  unit         String?
+  category     String?
+  searchTokens String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  products  Product[]
+  listItems ListItem[]
+
+  @@index([brand])
+  @@index([size])
+  @@index([unit])
+  @@index([category])
+}

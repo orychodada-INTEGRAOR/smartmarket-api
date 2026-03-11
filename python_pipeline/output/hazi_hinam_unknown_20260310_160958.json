@@ -1,0 +1,93 @@
+{
+  "store_info": {
+    "chain": "חצי חינם",
+    "chain_id": "",
+    "store_id": "",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T16:09:58.998361"
+  },
+  "products": [
+    {
+      "barcode": "7290014692817",
+      "name": "גבינת מוצרלה מגורדת 200 גרם.",
+      "manufacturer": "",
+      "price": 15.2,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:58.998409"
+    },
+    {
+      "barcode": "8718951093331",
+      "name": "מברשות שיניים זוג מרידול",
+      "manufacturer": "",
+      "price": 29.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:58.998416"
+    },
+    {
+      "barcode": "11210000032",
+      "name": "טבסקו משפחתי",
+      "manufacturer": "",
+      "price": 50.4,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:58.998421"
+    },
+    {
+      "barcode": "11210007253",
+      "name": "טבסקו שום 60 מ\"ל",
+      "manufacturer": "",
+      "price": 11.0,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:58.998426"
+    },
+    {
+      "barcode": "7290102060764",
+      "name": "מברשות שיניים זוג מרידול",
+      "manufacturer": "",
+      "price": 29.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:58.998432"
+    },
+    {
+      "barcode": "11210698055",
+      "name": "טבסקו רוטב סרירצ'ה",
+      "manufacturer": "",
+      "price": 26.2,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:58.998437"
+    },
+    {
+      "barcode": "11210009387",
+      "name": "טבסקו ירוק 60 מ\"ל",
+      "manufacturer": "",
+      "price": 11.0,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:58.998442"
+    },
+    {
+      "barcode": "7290109134772",
+      "name": "פותחן שימורים",
+      "manufacturer": "",
+      "price": 19.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:58.998446"
+    },
+    {
+      "barcode": "8718951643574",
+      "name": "מברשות שיניים זוג מרידול",
+      "manufacturer": "",
+      "price": 29.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:58.998450"
+    }
+  ]
+}

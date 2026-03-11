@@ -1,0 +1,165 @@
+{
+  "store_info": {
+    "chain": "חצי חינם",
+    "chain_id": "",
+    "store_id": "",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T16:09:57.784137"
+  },
+  "products": [
+    {
+      "barcode": "5904941751302",
+      "name": "BLU משקה אנרגיה 250מל",
+      "manufacturer": "",
+      "price": 4.0,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784183"
+    },
+    {
+      "barcode": "5904941751920",
+      "name": "משקה בלו דיי",
+      "manufacturer": "",
+      "price": 4.3,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784190"
+    },
+    {
+      "barcode": "5904941751371",
+      "name": "משקה בלו דיי    אקזוטי",
+      "manufacturer": "",
+      "price": 4.3,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784196"
+    },
+    {
+      "barcode": "7291044105315",
+      "name": "מיחם שבת עד 30 כוסות",
+      "manufacturer": "",
+      "price": 149.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784202"
+    },
+    {
+      "barcode": "7290003744855",
+      "name": "אובלטים שומשום 300 גרם.",
+      "manufacturer": "",
+      "price": 14.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784208"
+    },
+    {
+      "barcode": "7290011593087",
+      "name": "שמן זית כתית מעולה 750 מ\"ל",
+      "manufacturer": "",
+      "price": 34.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784214"
+    },
+    {
+      "barcode": "753182231761",
+      "name": "משקה אנרגיה BLU SUGAR FREE",
+      "manufacturer": "",
+      "price": 4.0,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784222"
+    },
+    {
+      "barcode": "5904941751524",
+      "name": "משקה בלו דיי אבטיח",
+      "manufacturer": "",
+      "price": 4.3,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784227"
+    },
+    {
+      "barcode": "7290114653398",
+      "name": "שלישיית ביצי שוקולד כ.פ (חלב נוכרי) LOL",
+      "manufacturer": "",
+      "price": 15.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784232"
+    },
+    {
+      "barcode": "7290112704030",
+      "name": "שלישיית ביצי שוקולד (חלב נוכרי)-הלו קיטי",
+      "manufacturer": "",
+      "price": 15.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784237"
+    },
+    {
+      "barcode": "7290000497112",
+      "name": "לחם אחיד כהה פרוס 750 גרם.",
+      "manufacturer": "",
+      "price": 8.38,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784242"
+    },
+    {
+      "barcode": "5904941751715",
+      "name": "משקה אנרגיה 250 מל   BLU CRANBERRY",
+      "manufacturer": "",
+      "price": 4.0,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784247"
+    },
+    {
+      "barcode": "7290119860593",
+      "name": "אובלטים קימל 225 גרם",
+      "manufacturer": "",
+      "price": 13.1,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784252"
+    },
+    {
+      "barcode": "7290119860715",
+      "name": "אובלטים שומשום 225 גרם",
+      "manufacturer": "",
+      "price": 13.1,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784257"
+    },
+    {
+      "barcode": "5904941750312",
+      "name": "משקה בלו מוחיטו",
+      "manufacturer": "",
+      "price": 4.3,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784263"
+    },
+    {
+      "barcode": "7290113594579",
+      "name": "שלישיית ביצי שוקולד(חלב נוכרי)-מפרץ הרפתקאות",
+      "manufacturer": "",
+      "price": 15.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784268"
+    },
+    {
+      "barcode": "7290019473824",
+      "name": "סט 2 סכין סנטוקו 17 ס\"מ+סכין מדורגת טורקיז",
+      "manufacturer": "",
+      "price": 99.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:57.784272"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+# SmartMarket Pipeline Configuration
+
+# מקסימום קבצים לכל מקור
+max_files_per_source: 5
+
+# קטגוריות לעיבוד
+categories:
+  - food
+  # - pharma
+  # - fashion
+  # - electronics
+
+# ניקוי אוטומטי של קבצים זמניים
+cleanup: true
+
+# תיקיות
+download_dir: downloads
+output_dir: output
+
+# מקורות מזון
+food_sources:
+  - victory
+  - shufersal
+  - hazi_hinam
+  - rami_levy
+  - yohananof
+  - osher_ad
+  - mahsanei_hashuk
+
+# הגדרות רשת
+network:
+  timeout: 60  # seconds
+  retry_count: 3
+  delay_between_requests: 0.5  # seconds
+
+# הגדרות DB (לעתיד)
+database:
+  enabled: false
+  host: localhost
+  port: 5432
+  name: smartmarket
+  user: postgres
+  password: ""
+
+# Logging
+logging:
+  enabled: true
+  level: INFO
+  file: smartmarket.log

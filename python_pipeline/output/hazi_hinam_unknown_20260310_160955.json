@@ -1,0 +1,66 @@
+{
+  "store_info": {
+    "chain": "חצי חינם",
+    "chain_id": "",
+    "store_id": "",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T16:09:55.976490"
+  },
+  "products": [
+    {
+      "barcode": "4820154723428",
+      "name": "גביע \"אמפרזה\" תות שדה 100 גר'",
+      "manufacturer": "",
+      "price": 9.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:55.976523"
+    },
+    {
+      "barcode": "4820154723442",
+      "name": "גביע \"אמפרזה\" טריפל שוקולד 100 גר'",
+      "manufacturer": "",
+      "price": 9.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:55.976528"
+    },
+    {
+      "barcode": "4810168060268",
+      "name": "גלידת שמנת משובחת",
+      "manufacturer": "",
+      "price": 7.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:55.976531"
+    },
+    {
+      "barcode": "4810168038267",
+      "name": "גלידה פלומביר אסקימו \"65 \"YUKKIג'",
+      "manufacturer": "",
+      "price": 7.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:55.976534"
+    },
+    {
+      "barcode": "4823097814086",
+      "name": "גלידה חלבית בטעם וניל מצופה",
+      "manufacturer": "",
+      "price": 7.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:55.976537"
+    },
+    {
+      "barcode": "4820249751787",
+      "name": "גלידת שמנת משובחת CANNOLI CRUNCH שוקולד בגליל וופל 60ג",
+      "manufacturer": "",
+      "price": 9.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:55.976540"
+    }
+  ]
+}

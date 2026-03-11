@@ -1,0 +1,123 @@
+{
+  "store_info": {
+    "chain": "שופרסל",
+    "category": "food",
+    "chain_id": "7290027600007",
+    "store_id": "002",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T17:29:19.256020"
+  },
+  "products": [
+    {
+      "barcode": "60017505",
+      "name": "דאב רול און מלפפון 50מ\"ל",
+      "manufacturer": "יוניליוור ישראל שיווק",
+      "price": 23.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256062"
+    },
+    {
+      "barcode": "60098764",
+      "name": "דאב רול און אורגינל 50מל",
+      "manufacturer": "יוניליוור ישראל מזון",
+      "price": 23.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256067"
+    },
+    {
+      "barcode": "7290000000053",
+      "name": "קישואים מובחר",
+      "manufacturer": "קטיף.",
+      "price": 9.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256072"
+    },
+    {
+      "barcode": "7290000000398",
+      "name": "חזרת",
+      "manufacturer": "קטיף.",
+      "price": 49.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256076"
+    },
+    {
+      "barcode": "7290012962448",
+      "name": "מדליק פחם 250מל",
+      "manufacturer": "S.C.B.V",
+      "price": 9.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256081"
+    },
+    {
+      "barcode": "7290012962578",
+      "name": "300צמרוני אוזניים בקופסא",
+      "manufacturer": "LTD CO S.T.O",
+      "price": 6.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256085"
+    },
+    {
+      "barcode": "7290015968102",
+      "name": "100 קיסמי שיניים עם חוט",
+      "manufacturer": "W.H.J.C.CO",
+      "price": 15.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256089"
+    },
+    {
+      "barcode": "7290017217321",
+      "name": "נרות חימום לבנדר 50 יח",
+      "manufacturer": "LTD T.G.C",
+      "price": 10.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256094"
+    },
+    {
+      "barcode": "7290112841865",
+      "name": "פורטובלו למילוי יחידה",
+      "manufacturer": "פטריות ושורשים בע\"מ",
+      "price": 15.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256098"
+    },
+    {
+      "barcode": "7290119373734",
+      "name": "אחלה חומוס ותטבילה 250 ג",
+      "manufacturer": "שטראוס גרופ בע\"מ",
+      "price": 12.5,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256103"
+    },
+    {
+      "barcode": "7296073746256",
+      "name": "ת.רחצה דיפ הדרי750לה מון",
+      "manufacturer": "פאר פארם בע\"מ",
+      "price": 18.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "002",
+      "updated_at": "2026-03-10T17:29:19.256108"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "store_info": {
+    "chain": "חצי חינם",
+    "chain_id": "",
+    "store_id": "",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T16:10:00.795500"
+  },
+  "products": [
+    {
+      "barcode": "7432",
+      "name": "שרי תמר",
+      "manufacturer": "",
+      "price": 24.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:10:00.795533"
+    },
+    {
+      "barcode": "7003",
+      "name": "עגבניה מגי",
+      "manufacturer": "",
+      "price": 14.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:10:00.795538"
+    }
+  ]
+}

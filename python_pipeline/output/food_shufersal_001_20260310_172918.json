@@ -1,0 +1,133 @@
+{
+  "store_info": {
+    "chain": "שופרסל",
+    "category": "food",
+    "chain_id": "7290027600007",
+    "store_id": "001",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T17:29:18.527272"
+  },
+  "products": [
+    {
+      "barcode": "7290000000053",
+      "name": "קישואים מובחר",
+      "manufacturer": "קטיף.",
+      "price": 9.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527370"
+    },
+    {
+      "barcode": "7290000960548",
+      "name": "מלפפון אורגני",
+      "manufacturer": "",
+      "price": 17.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527380"
+    },
+    {
+      "barcode": "7290009136982",
+      "name": "מארז מלפפון אורגני",
+      "manufacturer": "CP",
+      "price": 17.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527388"
+    },
+    {
+      "barcode": "7290009958539",
+      "name": "עגבניה מגי אורגנית",
+      "manufacturer": "CP",
+      "price": 25.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527395"
+    },
+    {
+      "barcode": "7290012962448",
+      "name": "מדליק פחם 250מל",
+      "manufacturer": "S.C.B.V",
+      "price": 9.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527401"
+    },
+    {
+      "barcode": "7290013310477",
+      "name": "שיפודי במבוק שטוחים 25יח",
+      "manufacturer": "כללי",
+      "price": 8.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527409"
+    },
+    {
+      "barcode": "7290016270952",
+      "name": "שום יבש ברשת אורגני",
+      "manufacturer": "דנטל",
+      "price": 20.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527417"
+    },
+    {
+      "barcode": "7290017217321",
+      "name": "נרות חימום לבנדר 50 יח",
+      "manufacturer": "LTD T.G.C",
+      "price": 10.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527424"
+    },
+    {
+      "barcode": "7290112841872",
+      "name": "צמד פורטובלו יחידה",
+      "manufacturer": "פטריות ושורשים בע\"מ",
+      "price": 10.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527430"
+    },
+    {
+      "barcode": "7296073733539",
+      "name": "ת.רחצה קלאסי750מ לה מון",
+      "manufacturer": "פאר פארם בע\"מ",
+      "price": 18.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527437"
+    },
+    {
+      "barcode": "7296073733546",
+      "name": "ת.רחצה מלפפון750מ לה מון",
+      "manufacturer": "פאר פארם בע\"מ",
+      "price": 18.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527444"
+    },
+    {
+      "barcode": "7296073746263",
+      "name": "ת.רחצה מי ורד750 לה מון",
+      "manufacturer": "פאר פארם בע\"מ",
+      "price": 18.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "001",
+      "updated_at": "2026-03-10T17:29:18.527451"
+    }
+  ]
+}

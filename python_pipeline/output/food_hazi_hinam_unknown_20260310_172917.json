@@ -1,0 +1,83 @@
+{
+  "store_info": {
+    "chain": "חצי חינם",
+    "category": "food",
+    "chain_id": "",
+    "store_id": "",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T17:29:17.795649"
+  },
+  "products": [
+    {
+      "barcode": "7290110465858",
+      "name": "פורס ביצים SIGNATURE",
+      "manufacturer": "",
+      "price": 49.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:17.795764"
+    },
+    {
+      "barcode": "7290119835812",
+      "name": "סיר 26 ס\"מ, 5.1 ל' +CASUAL ידיות סגולות",
+      "manufacturer": "",
+      "price": 159.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:17.795789"
+    },
+    {
+      "barcode": "7290119836826",
+      "name": "זוג סכיני חיתוך משוננות רב-תכליתיות 14 ס\"מ CLASSIC שחור/לבן",
+      "manufacturer": "",
+      "price": 19.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:17.795799"
+    },
+    {
+      "barcode": "7290122473063",
+      "name": "מיקסר ידני ANY MIX",
+      "manufacturer": "",
+      "price": 199.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:17.795807"
+    },
+    {
+      "barcode": "7290119841189",
+      "name": "מלקחיים סיליקון/נירוסטה 24 ס\"מ מעורב צבעים  Bake Joy",
+      "manufacturer": "",
+      "price": 19.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:17.795815"
+    },
+    {
+      "barcode": "7290016287912",
+      "name": "משטח חיתוך CLEAN S",
+      "manufacturer": "",
+      "price": 29.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:17.795824"
+    },
+    {
+      "barcode": "7290115628357",
+      "name": "מחבת 20 ס\"מ CASUAL PLUS ידית צהובה",
+      "manufacturer": "",
+      "price": 49.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:17.795832"
+    }
+  ]
+}

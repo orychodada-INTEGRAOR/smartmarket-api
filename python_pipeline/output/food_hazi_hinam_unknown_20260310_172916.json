@@ -1,0 +1,73 @@
+{
+  "store_info": {
+    "chain": "חצי חינם",
+    "category": "food",
+    "chain_id": "",
+    "store_id": "",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T17:29:16.426004"
+  },
+  "products": [
+    {
+      "barcode": "7290016287912",
+      "name": "משטח חיתוך CLEAN S",
+      "manufacturer": "",
+      "price": 29.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:16.426046"
+    },
+    {
+      "barcode": "7290110115203",
+      "name": "קוקה קולה 1.5 ליטר",
+      "manufacturer": "",
+      "price": 8.3,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:16.426052"
+    },
+    {
+      "barcode": "7290117051740",
+      "name": "סיר 20 ס\"מ, 2.6 ל' +CASUAL ידיות ורודות",
+      "manufacturer": "",
+      "price": 122.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:16.426058"
+    },
+    {
+      "barcode": "7290019056553",
+      "name": "עין גדי מים שישייה 2 ליטר",
+      "manufacturer": "",
+      "price": 13.5,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:16.426063"
+    },
+    {
+      "barcode": "7290119835836",
+      "name": "סוטאז' 24 ס\"מ, 2.8 ל' +CASUAL ידיות סגולות",
+      "manufacturer": "",
+      "price": 119.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:16.426068"
+    },
+    {
+      "barcode": "7290115628357",
+      "name": "מחבת 20 ס\"מ CASUAL PLUS ידית צהובה",
+      "manufacturer": "",
+      "price": 49.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:16.426073"
+    }
+  ]
+}

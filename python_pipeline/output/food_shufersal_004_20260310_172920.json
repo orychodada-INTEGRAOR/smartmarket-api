@@ -1,0 +1,93 @@
+{
+  "store_info": {
+    "chain": "שופרסל",
+    "category": "food",
+    "chain_id": "7290027600007",
+    "store_id": "004",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T17:29:20.685675"
+  },
+  "products": [
+    {
+      "barcode": "7290000000053",
+      "name": "קישואים מובחר",
+      "manufacturer": "קטיף.",
+      "price": 9.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "004",
+      "updated_at": "2026-03-10T17:29:20.685720"
+    },
+    {
+      "barcode": "7290000960548",
+      "name": "מלפפון אורגני",
+      "manufacturer": "",
+      "price": 17.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "004",
+      "updated_at": "2026-03-10T17:29:20.685727"
+    },
+    {
+      "barcode": "7290009136982",
+      "name": "מארז מלפפון אורגני",
+      "manufacturer": "CP",
+      "price": 17.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "004",
+      "updated_at": "2026-03-10T17:29:20.685733"
+    },
+    {
+      "barcode": "7290009958539",
+      "name": "עגבניה מגי אורגנית",
+      "manufacturer": "CP",
+      "price": 25.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "004",
+      "updated_at": "2026-03-10T17:29:20.685736"
+    },
+    {
+      "barcode": "7290012962448",
+      "name": "מדליק פחם 250מל",
+      "manufacturer": "S.C.B.V",
+      "price": 9.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "004",
+      "updated_at": "2026-03-10T17:29:20.685748"
+    },
+    {
+      "barcode": "7290016270952",
+      "name": "שום יבש ברשת אורגני",
+      "manufacturer": "דנטל",
+      "price": 20.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "004",
+      "updated_at": "2026-03-10T17:29:20.685752"
+    },
+    {
+      "barcode": "7290017217918",
+      "name": "מדליק פחם נוזלי 500 מ\"ל",
+      "manufacturer": "B.V CHEMIE SEL",
+      "price": 16.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "004",
+      "updated_at": "2026-03-10T17:29:20.685757"
+    },
+    {
+      "barcode": "7296073733539",
+      "name": "ת.רחצה קלאסי750מ לה מון",
+      "manufacturer": "פאר פארם בע\"מ",
+      "price": 18.9,
+      "category": "food",
+      "chain": "שופרסל",
+      "store_id": "004",
+      "updated_at": "2026-03-10T17:29:20.685761"
+    }
+  ]
+}

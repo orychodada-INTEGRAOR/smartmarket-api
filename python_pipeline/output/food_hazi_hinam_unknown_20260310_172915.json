@@ -1,0 +1,113 @@
+{
+  "store_info": {
+    "chain": "חצי חינם",
+    "category": "food",
+    "chain_id": "",
+    "store_id": "",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T17:29:15.719755"
+  },
+  "products": [
+    {
+      "barcode": "7290019056553",
+      "name": "עין גדי מים שישייה 2 ליטר",
+      "manufacturer": "",
+      "price": 13.5,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719786"
+    },
+    {
+      "barcode": "7290110115203",
+      "name": "קוקה קולה 1.5 ליטר",
+      "manufacturer": "",
+      "price": 8.3,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719790"
+    },
+    {
+      "barcode": "7290006502353",
+      "name": "מסחטת הדרים\\רימונים כתום BUFFALO המקורית",
+      "manufacturer": "",
+      "price": 199.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719794"
+    },
+    {
+      "barcode": "7290119838905",
+      "name": "מארז אפייה - תבנית אינגליש קייק 29.5x15x7.7 ס\"מ + לקקן מייפל",
+      "manufacturer": "",
+      "price": 29.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719798"
+    },
+    {
+      "barcode": "7290122474640",
+      "name": "סט קנקן תה 1500 מ\"ל + 4 כוסות 350 מ\"ל MALAYSIA ROSE GOLD",
+      "manufacturer": "",
+      "price": 99.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719801"
+    },
+    {
+      "barcode": "7290016287905",
+      "name": "משטח חיתוך CLEAN M",
+      "manufacturer": "",
+      "price": 39.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719804"
+    },
+    {
+      "barcode": "7290110468026",
+      "name": "מחבת 18 ס\"מ  EVERYDAY PLUS",
+      "manufacturer": "",
+      "price": 59.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719807"
+    },
+    {
+      "barcode": "7290016286014",
+      "name": "סט 2 כוסות דאבל 250 מ\"ל CAPPUCCINO-COLOMBIA",
+      "manufacturer": "",
+      "price": 36.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719810"
+    },
+    {
+      "barcode": "7290115628357",
+      "name": "מחבת 20 ס\"מ CASUAL PLUS ידית צהובה",
+      "manufacturer": "",
+      "price": 49.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719814"
+    },
+    {
+      "barcode": "7290119841189",
+      "name": "מלקחיים סיליקון/נירוסטה 24 ס\"מ מעורב צבעים  Bake Joy",
+      "manufacturer": "",
+      "price": 19.9,
+      "category": "food",
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T17:29:15.719817"
+    }
+  ]
+}

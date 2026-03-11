@@ -1,0 +1,102 @@
+{
+  "store_info": {
+    "chain": "חצי חינם",
+    "chain_id": "",
+    "store_id": "",
+    "store_name": "",
+    "update_date": "",
+    "processed_at": "2026-03-10T16:09:59.599182"
+  },
+  "products": [
+    {
+      "barcode": "7290014692817",
+      "name": "גבינת מוצרלה מגורדת 200 גרם.",
+      "manufacturer": "",
+      "price": 15.2,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599233"
+    },
+    {
+      "barcode": "8718951093331",
+      "name": "מברשות שיניים זוג מרידול",
+      "manufacturer": "",
+      "price": 29.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599238"
+    },
+    {
+      "barcode": "70080000016",
+      "name": "חרדל אמריקאי צהוב",
+      "manufacturer": "",
+      "price": 11.0,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599242"
+    },
+    {
+      "barcode": "8851251000200",
+      "name": "מסננת אנטיבקטריאלי",
+      "manufacturer": "",
+      "price": 6.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599247"
+    },
+    {
+      "barcode": "11210007253",
+      "name": "טבסקו שום 60 מ\"ל",
+      "manufacturer": "",
+      "price": 11.0,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599252"
+    },
+    {
+      "barcode": "8003576901865",
+      "name": "מברשת שרותים פיור מעמד מרובע",
+      "manufacturer": "",
+      "price": 19.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599257"
+    },
+    {
+      "barcode": "11210698055",
+      "name": "טבסקו רוטב סרירצ'ה",
+      "manufacturer": "",
+      "price": 26.2,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599261"
+    },
+    {
+      "barcode": "7392870350099",
+      "name": "מלחיה זכוכית מרובעת  מכסה נירוסטה",
+      "manufacturer": "",
+      "price": 3.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599266"
+    },
+    {
+      "barcode": "11210009387",
+      "name": "טבסקו ירוק 60 מ\"ל",
+      "manufacturer": "",
+      "price": 11.0,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599270"
+    },
+    {
+      "barcode": "8025358633993",
+      "name": "נפנף למנגל",
+      "manufacturer": "",
+      "price": 4.9,
+      "chain": "חצי חינם",
+      "store_id": "",
+      "updated_at": "2026-03-10T16:09:59.599275"
+    }
+  ]
+}
