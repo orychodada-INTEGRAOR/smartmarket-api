@@ -1,0 +1,23 @@
+{
+  "name": "smartmarket-parser",
+  "version": "1.0.0",
+  "description": "SmartMarket Production Parser",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1",
+    "pg": "^8.20.0",
+    "winston": "^3.19.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
