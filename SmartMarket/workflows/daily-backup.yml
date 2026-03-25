@@ -1,0 +1,28 @@
+name: Daily Backup
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # כל יום בחצות
+  workflow_dispatch:       # מאפשר להריץ ידנית
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Configure Git
+        run: |
+          git config user.name "SmartMarket Backup Bot"
+          git config user.email "backup@smartmarket.com"
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Daily automatic backup" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push
