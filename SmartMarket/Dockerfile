@@ -1,0 +1,11 @@
+FROM python:3.11
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir --prefer-binary -r requirements.txt
+
+COPY . .
+
+CMD ["python", "ois_loader.py"]
